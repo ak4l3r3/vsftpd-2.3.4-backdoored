@@ -21,5 +21,5 @@ cat file_name;
 
 
 jalankan docker image begini
-
-docker run -it --rm -p 21:21 -p 6200:6200 backdoored-vsftpd-2.3.4-versilain
+1. docker build -t vsftpd-2.3.4-backdoored
+2. docker run -it --rm -p 21:21 -p 6200:6200 vsftpd-2.3.4-backdoored
